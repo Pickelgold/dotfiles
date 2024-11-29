@@ -1,0 +1,58 @@
+@-moz-document url(about:newtab), url(about:home) {
+
+    body {
+         background-color: #faf4ed !important; 
+    }
+
+.logo {background-image: url("senko.png") !important;
+	background-size: 350px !important;
+	height:350px !important;
+	width: 350px !important;}
+.wordmark {background: url("chrome://branding/content/firefox-wordmark.svg") no-repeat center center;
+    background-size: auto;
+  background-size: 325px !important;
+  -moz-context-properties: fill;
+  display: inline-block;
+  fill: var(--newtab-wordmark-color);
+  height: 325px !important;
+  margin-inline-start: 16px;
+  width: 325px !important;
+  fill: #575279 !important; 
+}
+.outer-wrapper.only-search {
+  display: block;
+  padding-top: 100px !important;
+}
+.non-collapsible-section {
+	padding: 0 0px !important;
+}
+/*
+.ds-outer-wrapper-breakpoint-override main {
+	width: 575px !important;
+}
+*/
+/*
+body[lwt-newtab-brighttext] {
+    --newtab-background-color: rgba(0,11,30,1) !important; 
+    --newtab-wordmark-color: #00ff00 !important;
+}
+body::before {
+    content: "" ;
+    z-index: -1 ;
+    position: fixed ;
+    top: 0 ;
+    left: 0 ;
+    /*background: no-repeat url(img/synth4.jpg) center ; */
+    /*background: rgba(49,49,58,0) !important;*/
+    /*
+    background-size: cover ;
+    width: 100vw ;
+    height: 100vh ;
+}
+*/
+/*
+.search-handoff-button{ background-image: url("image.png") !important }
+}
+*/
+}
+
