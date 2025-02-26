@@ -1,0 +1,99 @@
+{
+  "Version": 0,
+  "Profiles": [
+    {
+      "Name": "Wacom CTH-480",
+      "TapGestures": [
+        {
+          "Store": {
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+            "Settings": [
+              {
+                "Property": "Button",
+                "Value": "Middle",
+                "HasValue": true
+              }
+            ],
+            "Enable": true
+          },
+          "Deadline": 80.0,
+          "Threshold": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "RequiredTouchesCount": 3,
+          "Bounds": {
+            "Width": 152.0,
+            "Height": 95.0,
+            "Position": {
+              "X": 76.0,
+              "Y": 47.5
+            },
+            "Rotation": 0.0
+          }
+        },
+        {
+          "Store": {
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+            "Settings": [
+              {
+                "Property": "Button",
+                "Value": "Right",
+                "HasValue": true
+              }
+            ],
+            "Enable": true
+          },
+          "Deadline": 80.0,
+          "Threshold": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "RequiredTouchesCount": 2,
+          "Bounds": {
+            "Width": 152.0,
+            "Height": 95.0,
+            "Position": {
+              "X": 76.0,
+              "Y": 47.5
+            },
+            "Rotation": 0.0
+          }
+        },
+        {
+          "Store": {
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+            "Settings": [
+              {
+                "Property": "Button",
+                "Value": "Left",
+                "HasValue": true
+              }
+            ],
+            "Enable": true
+          },
+          "Deadline": 80.0,
+          "Threshold": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "RequiredTouchesCount": 1,
+          "Bounds": {
+            "Width": 152.0,
+            "Height": 95.0,
+            "Position": {
+              "X": 76.0,
+              "Y": 47.5
+            },
+            "Rotation": 0.0
+          }
+        }
+      ],
+      "HoldGestures": [],
+      "SwipeGestures": [],
+      "PanGestures": [],
+      "PinchGestures": [],
+      "RotateGestures": []
+    }
+  ]
+}

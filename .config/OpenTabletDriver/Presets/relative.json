@@ -7,7 +7,73 @@
         "Settings": [],
         "Enable": true
       },
-      "Filters": [],
+      "Filters": [
+        {
+          "Path": "OTD.EnhancedOutputMode.Lib.Tools.TouchSettings",
+          "Settings": [
+            {
+              "Property": "PenResetTime",
+              "Value": 100
+            },
+            {
+              "Property": "MaxX",
+              "Value": 4095
+            },
+            {
+              "Property": "MaxY",
+              "Value": 4095
+            },
+            {
+              "Property": "DisableWhenPenInRange",
+              "Value": true
+            },
+            {
+              "Property": "IsTouchToggled",
+              "Value": false
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "TouchGestures.GesturesHandler",
+          "Settings": [],
+          "Enable": false
+        },
+        {
+          "Path": "Hover_Distance_Limiter.Hover_Distance_Limiter",
+          "Settings": [
+            {
+              "Property": "Hover_min",
+              "Value": 0
+            },
+            {
+              "Property": "NearProximity",
+              "Value": null
+            },
+            {
+              "Property": "Pressure_min",
+              "Value": 0
+            },
+            {
+              "Property": "Pressure_max",
+              "Value": 16384
+            },
+            {
+              "Property": "Pen",
+              "Value": null
+            },
+            {
+              "Property": "Eraser",
+              "Value": null
+            },
+            {
+              "Property": "Hover_max",
+              "Value": 50
+            }
+          ],
+          "Enable": false
+        }
+      ],
       "AbsoluteModeSettings": {
         "Display": {
           "Width": 1920.0,
@@ -17,10 +83,10 @@
           "Rotation": 0.0
         },
         "Tablet": {
-          "Width": 64.0,
-          "Height": 48.0,
-          "X": 48.0,
-          "Y": 71.0,
+          "Width": 72.0,
+          "Height": 52.0,
+          "X": 116.0,
+          "Y": 70.0,
           "Rotation": 180.0
         },
         "EnableClipping": true,
@@ -28,9 +94,9 @@
         "LockAspectRatio": false
       },
       "RelativeModeSettings": {
-        "XSensitivity": 32.0,
-        "YSensitivity": 25.0,
-        "RelativeRotation": 180.0,
+        "XSensitivity": 48.0,
+        "YSensitivity": 40.0,
+        "RelativeRotation": 270.0,
         "RelativeResetDelay": "00:00:00.1000000"
       },
       "Bindings": {
@@ -53,7 +119,7 @@
             "Settings": [
               {
                 "Property": "Button",
-                "Value": "Right"
+                "Value": "Left"
               }
             ],
             "Enable": true
@@ -119,5 +185,21 @@
   ],
   "LockUsableAreaDisplay": true,
   "LockUsableAreaTablet": true,
-  "Tools": []
+  "Tools": [
+    {
+      "Path": "TouchGestures.GesturesDaemon",
+      "Settings": [],
+      "Enable": true
+    },
+    {
+      "Path": "TouchGestures.Installer.TouchGesturesInstaller",
+      "Settings": [
+        {
+          "Property": "ForceInstall",
+          "Value": false
+        }
+      ],
+      "Enable": true
+    }
+  ]
 }

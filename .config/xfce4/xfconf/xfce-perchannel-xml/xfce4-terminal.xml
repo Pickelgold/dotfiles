@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="font-use-system" type="bool" value="true"/>
+  <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_SOLID"/>
+  <property name="background-image-file" type="string" value="/home/he/.themes/Needy_streamer_overload/images/Windose20-wallpaper.png"/>
+  <property name="background-image-style" type="string" value="TERMINAL_BACKGROUND_STYLE_FILLED"/>
+  <property name="background-image-shading" type="double" value="0"/>
+  <property name="misc-default-geometry" type="string" value="100x40"/>
+  <property name="color-foreground" type="string" value="#46462d2dc6c6"/>
+  <property name="color-use-theme" type="bool" value="true"/>
+  <property name="misc-show-unsafe-paste-dialog" type="bool" value="false"/>
+</channel>
